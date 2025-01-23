@@ -28,8 +28,8 @@ body {
   color: #007fdb;
 }
 .for-time-9 {
-  background-image: url(images/Rectangle\ 2.png);
   background-position: center;
+  background-image: url(images/Rectangle\ 2.png);
   background-repeat: no-repeat;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
