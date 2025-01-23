@@ -70,6 +70,17 @@ input[type="checkbox"] {
   flex-direction: column;
   gap: 3rem;
   padding: 1rem;
+  margin-top: 20px;
+}
+.ragac{
+  background-color: #20eeb0;
+  border-color: #20eeb0;
+  margin-top: 20px;
+}
+.ragac3{
+  background-color:#EBEFF2;
+  border-color:  #EBEFF2;
+  margin-top: 20px;
 }
 #todo-all-list h1 {
   font-size: 18px;
@@ -167,6 +178,7 @@ input[type="checkbox"] {
   height: 536px;
   border-radius: 10px;
   min-width: 430px;
+  margin-bottom: 135px;
 }
 
 
