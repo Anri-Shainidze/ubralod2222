@@ -22,7 +22,7 @@ function addTodoToList(txt) {
 
     deleteicons.addEventListener("click", function() {
       
-        newTodo.remove();
+        todoes.remove();
 
    
         const todo1 = JSON.parse(localStorage.getItem("todo1")) || [];
@@ -49,9 +49,9 @@ document.getElementById("btnsub").addEventListener("click", function(fun1) {
         addTodoToList(inptxt); 
 
 
-        const todo1 = JSON.parse(localStorage.getItem("todo2")) || [];
-        todo1.push(todo1);
-        localStorage.setItem("todo2", JSON.stringify(todo1)); 
+        const todo8 = JSON.parse(localStorage.getItem("todo8")) || [];
+        todo8.push(todo8);
+        localStorage.setItem("todo8", JSON.stringify(todo8)); 
 
         inforMation.value = "";
     }
